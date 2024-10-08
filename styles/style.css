@@ -1,0 +1,21 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 700px;
+    position: relative;
+    background-size: cover;
+    background-image:linear-gradient(90deg, rgb(16, 16, 16) -19.5%, rgba(7, 2, 16, 0) 100%), url("../assets/images/Banner\ Image.png");
+    border-radius: 16px;
+
+}
+#banner .banner-content .title{
+    color: white;
+}
+
+#banner.sub-title{}
