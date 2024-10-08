@@ -2,61 +2,102 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-#banner{
+#banner {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 700px;
-    position: relative;
-    background-size: cover;
-    background-image:linear-gradient(90deg, rgb(16, 16, 16) -19.5%, rgba(7, 2, 16, 0) 100%), url("../assets/images/Banner\ Image.png");
+    height: 1056px;
+    /* position: relative; */
+    /* background-size: cover; */
+    background-position: center;
+    background-image: linear-gradient(180deg, rgb(7, 2, 17) , rgba(7, 2, 16, 0) 100%), url("../assets/images/Banner\ Image.png");
     border-radius: 16px;
+    background-repeat:no-repeat;
 
 }
-#banner .banner-content .title{
+
+#banner .banner-content .title {
     color: white;
     font-family: Merriweather;
     font-weight: 400;
     font-size: 32px;
 }
 
-#banner .banner-content .sub-title{
+#banner .banner-content .sub-title {
     font-size: 72px;
     color: white;
     font-family: Merriweather;
     font-weight: 900;
-    
+
 }
 
-#holiday-box{
+#holiday-box {
     height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-#holiday-box .holiday-off h1{
+
+#holiday-box .holiday-off h1 {
     color: rgb(255, 0, 0);
     text-align: center;
     line-height: 100px;
     font-weight: 700px;
     font-size: 88px;
-       
+
 }
-#holiday-box .holiday-off p{
+
+#holiday-box .holiday-off p {
     color: rgb(255, 0, 0);
     text-align: center;
     line-height: 29px;
     font-weight: 500px;
     font-size: 24px;
-       
+
 }
-#holiday-box .holiday-off h2{
+
+#holiday-box .holiday-off h2 {
     color: rgb(7, 2, 17);
     text-align: center;
     line-height: 58px;
     font-weight: 700px;
     font-size: 48px;
-       
+
+}
+
+#midnight-party {
+    margin-top: 120px;
+    height: 700px;
+    background-image: linear-gradient(180deg, rgb(7, 2, 17) , rgba(7, 2, 16, 0) 100%), url("../assets/images/Vectorrr.png");
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 160px;
+    /* text-align: center; */
+    background-position: center;
+}
+.midnight-party-content h1{
+color: white;
+text-align: left;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+}
+
+.midnight-party-content p{
+color: white;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.btn-join-now{
+color: white;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+cursor: pointer;
 }
