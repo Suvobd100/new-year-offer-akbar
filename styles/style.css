@@ -261,6 +261,7 @@
         
 }
 .portfolio-img-a{
+    margin-bottom: 20px;
     display: flex;
     gap:20px;
     justify-content: center;
