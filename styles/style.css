@@ -11,9 +11,9 @@
     /* position: relative; */
     /* background-size: cover; */
     background-position: center;
-    background-image: linear-gradient(180deg, rgb(7, 2, 17) , rgba(7, 2, 16, 0) 100%), url("../assets/images/Banner\ Image.png");
+    background-image: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 16, 0) 100%), url("../assets/images/Banner\ Image.png");
     border-radius: 16px;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
 
 }
 
@@ -70,34 +70,60 @@
 #midnight-party {
     margin-top: 120px;
     height: 700px;
-    background-image: linear-gradient(180deg, rgb(7, 2, 17) , rgba(7, 2, 16, 0) 100%), url("../assets/images/Vectorrr.png");
-    background-repeat:no-repeat;
+    background-image: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 16, 0) 100%), url("../assets/images/Vectorrr.png");
+    background-repeat: no-repeat;
     display: flex;
     justify-content: left;
     align-items: center;
     padding-left: 160px;
-    /* text-align: center; */
     background-position: center;
 }
-.midnight-party-content h1{
-color: white;
-text-align: left;
-font-size: 64px;
-font-weight: 900;
-line-height: 88px;
-letter-spacing: 11%;
+
+.midnight-party-content h1 {
+    color: white;
+    text-align: left;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
 }
 
-.midnight-party-content p{
-color: white;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+.midnight-party-content p {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
-.btn-join-now{
-color: white;
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-cursor: pointer;
+
+.btn-join-now {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+#vanue-name {
+    margin-top: 120px;
+    height: 1000px;
+    background-image: linear-gradient(180deg, rgb(219, 152, 152), rgba(239, 222, 222, 0.1) 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px
+}
+
+.vanue-content {
+    font-size: 32px;
+    font-weight: 600px;
+    line-height: 56px;
+    text-align: center;
+
+}
+
+.date-red,
+.time-red,
+.place-red {
+    color: red;
 }
