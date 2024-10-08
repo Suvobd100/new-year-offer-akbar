@@ -242,4 +242,33 @@
 }
 
  /* portfolio img start */
- 
+.text-containt h4{
+    margin-top: 120px;
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.text-containt p{
+    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.text-containt{
+    margin-left: 500px;
+        
+}
+.portfolio-img-a{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    
+}
+.portfolio-img-b{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    
+}
