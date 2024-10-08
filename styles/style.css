@@ -73,15 +73,15 @@
     background-image: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 16, 0) 100%), url("../assets/images/Vectorrr.png");
     background-repeat: no-repeat;
     display: flex;
-    justify-content: left;
+    /* justify-content: left; */
     align-items: center;
-    padding-left: 160px;
+    padding-left:600px;
     background-position: center;
 }
 
 .midnight-party-content h1 {
     color: white;
-    text-align: left;
+    /* text-align: left; */
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
@@ -126,4 +126,67 @@
 .time-red,
 .place-red {
     color: red;
+}
+
+#new-best-offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comming-soon{
+    /* column-gap:25px; */
+}
+.comming-soon h4{ 
+    color: red;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-left: -30%;
+
+}
+.comming-soon h1{ 
+    /* color: red; */
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 900px;
+    margin-left: -30%;
+    
+
+}
+.comming-soon p{ 
+    /* color: red; */
+    margin-bottom: 20px;
+    font-size: 20px;
+    /* font-weight: 00px; */
+    margin-left: -30%;
+    
+
+}
+.new-year-2024 h2{
+    font-weight: 700px;
+    font-size: 48px;
+    margin-left: 60%;
+    color: red;
+    margin-left: 60%;
+
+
+}
+.new-year-2024 p{
+    font-weight: 400px;
+    font-size: 20px;
+    margin-left: 60%;
+ 
+}
+
+.new-year-2024 img{
+    margin-left: 60%;
+}
+
+.round-img img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid red;
+    padding: 10px;
+
 }
