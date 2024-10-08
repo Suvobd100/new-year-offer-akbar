@@ -16,6 +16,47 @@
 }
 #banner .banner-content .title{
     color: white;
+    font-family: Merriweather;
+    font-weight: 400;
+    font-size: 32px;
 }
 
-#banner.sub-title{}
+#banner .banner-content .sub-title{
+    font-size: 72px;
+    color: white;
+    font-family: Merriweather;
+    font-weight: 900;
+    
+}
+
+#holiday-box{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#holiday-box .holiday-off h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    line-height: 100px;
+    font-weight: 700px;
+    font-size: 88px;
+       
+}
+#holiday-box .holiday-off p{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    line-height: 29px;
+    font-weight: 500px;
+    font-size: 24px;
+       
+}
+#holiday-box .holiday-off h2{
+    color: rgb(7, 2, 17);
+    text-align: center;
+    line-height: 58px;
+    font-weight: 700px;
+    font-size: 48px;
+       
+}
