@@ -361,3 +361,26 @@
     font-size: 25px;
     border-radius: 0px     30px      30px           0px;
 }
+/* subcribe end */
+
+/* footer start */
+.addrss ,.number-web, .allright, .unsubscribe{
+    color: white;
+  }
+
+#footer{
+    height: 400px;
+    background-color: black;
+    /* padding-top: 50%; */
+    padding: 20% 50px 0px;
+    
+    
+   }
+
+.footer-top , .fot-txt-color{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    text-align: center;
+}
