@@ -339,19 +339,21 @@
     
 }
 
-.mail-input {
-    height:800px; */
-    font-size:25pt;
+.mail-inp {
+    height:30px; */
+    font-size:25px;
     border-radius: 6;
-    background-color: blue;
+    /* font-weight: 1rem; */
+    
+    padding-left:10px;
 }
 
-.subscribe-btn{
+.btn-subc{
     
-    padding-top: -30px;
-    margin-top: -10px;
+    padding-top: -20px;
+    /* margin-top:  */
     border-radius: 2;
     background-color: red;
     font-size: 25px;
-    border-radius: 10px     10px      0           0;
+    border-radius: 0px     10px      10px           0px;
 }
