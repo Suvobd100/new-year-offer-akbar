@@ -121,7 +121,7 @@
     text-align: center;
 
 }
-
+/* 3class use one proparty */
 .date-red,
 .time-red,
 .place-red {
@@ -134,9 +134,7 @@
     align-items: center;
 }
 
-.comming-soon {
-    /* column-gap:25px; */
-}
+
 
 .comming-soon h4 {
     color: red;
@@ -304,8 +302,17 @@
     border-radius: 10px
 }
 
+#subscribe h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+
+}
+
 .para-text {
-    width: 300px;
+    width: 500px;
     height: 100px;
     display: table;
     /* background:#ccddcc;   */
@@ -316,8 +323,35 @@
     vertical-align: middle;
     display: table-cell;
 
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
+    margin-bottom: 80px;
+
 }
 
 .email-contaner {
     display: flex;
+
+    
+}
+
+.mail-input {
+    height:800px; */
+    font-size:25pt;
+    border-radius: 6;
+    background-color: blue;
+}
+
+.subscribe-btn{
+    
+    padding-top: -30px;
+    margin-top: -10px;
+    border-radius: 2;
+    background-color: red;
+    font-size: 25px;
+    border-radius: 10px     10px      0           0;
 }
