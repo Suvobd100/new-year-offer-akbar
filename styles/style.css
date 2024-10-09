@@ -75,7 +75,7 @@
     display: flex;
     /* justify-content: left; */
     align-items: center;
-    padding-left:600px;
+    padding-left: 600px;
     background-position: center;
 }
 
@@ -133,10 +133,12 @@
     justify-content: center;
     align-items: center;
 }
-.comming-soon{
+
+.comming-soon {
     /* column-gap:25px; */
 }
-.comming-soon h4{ 
+
+.comming-soon h4 {
     color: red;
     margin-bottom: 20px;
     font-size: 24px;
@@ -144,25 +146,28 @@
     margin-left: -10%;
 
 }
-.comming-soon h1{ 
+
+.comming-soon h1 {
     /* color: red; */
     margin-bottom: 20px;
     font-size: 48px;
     font-weight: 900px;
     margin-left: -10%;
-    
+
 
 }
-.comming-soon p{ 
+
+.comming-soon p {
     /* color: red; */
     margin-bottom: 20px;
     font-size: 20px;
     /* font-weight: 00px; */
     margin-left: -10%;
-    
+
 
 }
-.new-year-2024 h2{
+
+.new-year-2024 h2 {
     font-weight: 700px;
     font-size: 48px;
     margin-left: 60%;
@@ -171,18 +176,19 @@
 
 
 }
-.new-year-2024 p{
+
+.new-year-2024 p {
     font-weight: 400px;
     font-size: 20px;
     margin-left: 60%;
- 
+
 }
 
-.new-year-2024 img{
+.new-year-2024 img {
     margin-left: 60%;
 }
 
-.round-img img{
+.round-img img {
     height: 300px;
     width: 300px;
     border-radius: 50%;
@@ -190,89 +196,101 @@
     padding: 10px;
 
 }
+
 /* holiday sales 50% */
-.holidy-sels h4{
-    color:rgb(7, 2, 17);
+.holidy-sels h4 {
+    color: rgb(7, 2, 17);
     font-size: 24px;
     font-weight: 500px;
-    
+
 }
-.holidy-sels h1{
-    color:rgb(7, 2, 17);
+
+.holidy-sels h1 {
+    color: rgb(7, 2, 17);
     font-size: 24px;
     font-weight: 900px;
     text-align: center;
 
 }
-.holidy-font-red{
-    color:red
+
+.holidy-font-red {
+    color: red
 }
 
-.holidy-sels p{
-    color:rgb(7, 2, 17);
+.holidy-sels p {
+    color: rgb(7, 2, 17);
     font-size: 20px;
     font-weight: 500px;
     text-align: center;
 
 }
-.holiday-text{
+
+.holiday-text {
     margin-top: 120px;
     display: flex;
     flex-direction: column;
-     align-items: center;
-     /* flex-wrap: wrap; */
+    align-items: center;
+    /* flex-wrap: wrap; */
 }
-.holiday-text p{
+
+.holiday-text p {
     text-align: center;
     line-height: 32px;
 }
-.holidy-contain-img{
+
+.holidy-contain-img {
     position: relative;
     display: flex;
     justify-content: space-around;
     z-index: 1;
 }
-.holiday-box{
-    height:400px ;
-   margin-left: -600px;
-}
-.img-50-parcent{
-    position: absolute;
-    left: 60%; 
+
+.holiday-box {
+    height: 400px;
+    margin-left: -600px;
 }
 
- /* portfolio img start */
-.text-containt h4{
+.img-50-parcent {
+    position: absolute;
+    left: 60%;
+}
+
+/* portfolio img start */
+.text-containt h4 {
     margin-top: 120px;
     color: red;
     font-size: 24px;
     font-weight: 500;
     line-height: 30px;
 }
-.text-containt p{
-    
+
+.text-containt p {
+
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
 }
 
-.text-containt{
+.text-containt {
     margin-left: 500px;
-        
+
 }
-.portfolio-img-a{
+
+.portfolio-img-a {
     margin-bottom: 20px;
     display: flex;
-    gap:20px;
+    gap: 20px;
     justify-content: center;
-    
+
 }
-.portfolio-img-b{
+
+.portfolio-img-b {
     display: flex;
-    gap:20px;
+    gap: 20px;
     justify-content: center;
-    
+
 }
+
 /* subscribe */
 #subscribe {
     margin-top: 120px;
@@ -283,12 +301,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 10px 
-}
-#subscribe p{
-    align-items: center;
-}
-.email-contaner{
-    display: flex;
+    border-radius: 10px
 }
 
+.para-text {
+    width: 300px;
+    height: 100px;
+    display: table;
+    /* background:#ccddcc;   */
+}
+
+.para-text {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+
+}
+
+.email-contaner {
+    display: flex;
+}
