@@ -273,3 +273,22 @@
     justify-content: center;
     
 }
+/* subscribe */
+#subscribe {
+    margin-top: 120px;
+    height: 1000px;
+    background-image: linear-gradient(180deg, rgb(219, 152, 152), rgba(239, 222, 222, 0.1) 100%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 
+}
+#subscribe p{
+    align-items: center;
+}
+.email-contaner{
+    display: flex;
+}
+
